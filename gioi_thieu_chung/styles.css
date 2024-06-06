@@ -1,0 +1,294 @@
+.generalInformation {
+  display: flex;
+  height: 100vh;
+  padding-left: 7.5rem;
+  justify-content: space-between;
+}
+.contentGI {
+  width: 33.125rem;
+  margin-top: 15%;
+}
+.containerImageGI {
+  width: 63%;
+  height: 92%;
+  position: relative;
+}
+.contentGI > span:first-child {
+  color: var(--Foundation-Red-red-500);
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 1.19rem;
+}
+.contentGI h2 {
+  color: var(--Foundation-Blue-blue-500, #047f56);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 129%; /* 2.58rem */
+  letter-spacing: -0.09881rem;
+  margin-bottom: 1.12rem;
+}
+.contentGI .descContentGI {
+  color: var(--Foundation-Grey-grey-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.02rem;
+  display: block;
+  margin-bottom: 2.19rem;
+}
+.retanglecontainerImageGI,
+.retanglecontainerImageGI2 {
+  width: 4.03125rem;
+  height: 4.03125rem;
+  background: #ff2c2c;
+  position: absolute;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  z-index: 2;
+  bottom: 0;
+}
+.retanglecontainerImageGI3 {
+  width: 3.375rem;
+  height: 3.375rem;
+  background-color: var(--Foundation-Blue-blue-500);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  position: absolute;
+  left: 76%;
+  bottom: 34%;
+  z-index: 2;
+}
+.retanglecontainerImageGI {
+  left: 0;
+}
+.retanglecontainerImageGI2 {
+  left: 4.03125rem;
+}
+.containerImageGI img {
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
+}
+.imageGi0 {
+  width: 35%;
+  height: 30%;
+  left: 5%;
+  bottom: 2%;
+}
+.imageGi1 {
+  width: 25%;
+  height: 20%;
+  left: 44%;
+  bottom: 12.2%;
+}
+.imageGi2 {
+  bottom: 35%;
+  width: 40%;
+  height: 30%;
+  left: 17%;
+}
+.imageGi3 {
+  width: 20%;
+  height: 30%;
+  left: 60%;
+  bottom: 35%;
+}
+.imageGi4 {
+  width: 30%;
+  height: 20%;
+  left: 60%;
+  bottom: 68%;
+}
+.imageGi5 {
+  width: 25%;
+  height: 20%;
+  bottom: 69%;
+  left: 11%;
+}
+.btnContactHeaderMb {
+  display: none;
+}
+.retanglecontainerImageGIMb1,
+.retanglecontainerImageGIMb2 {
+  display: block;
+  width: 1.34375rem;
+  height: 1.34375rem;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  position: absolute;
+  z-index: 2;
+  background: var(--Foundation-Red-red-500);
+}
+.retanglecontainerImageGIMb1{
+  left: 44%;
+  bottom: 12.2%;
+}.retanglecontainerImageGIMb2{
+  left: 47%;
+  bottom: 12.2%;
+}
+@media (max-width: 1024px) {
+  .generalInformation {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .generalInformation {
+    padding-left: 0;
+    flex-direction: column;
+    padding: 3rem;
+    padding-top: 2rem;
+    height: fit-content;
+  }
+
+  .contentGI {
+    width: 70%;
+    margin-top: 0;
+  }
+  .containerImageGI {
+    height: 35rem;
+    width: 100%;
+    transform: translateY(-1.5rem);
+  }
+  .contentGI h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .contentGI > span:first-child,
+  .contentGI .descContentGI {
+    margin-bottom: 0.5rem;
+  }
+  .retanglecontainerImageGI,
+  .retanglecontainerImageGI2 {
+    width: 3.03125rem;
+    height: 3.03125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentGI {
+    width: 100%;
+  }
+  .generalInformation {
+    padding: 1.69rem 0;
+  }
+  .contentGI {
+    padding: 0 1.25rem;
+  }
+  .contentGI > span:first-child {
+    margin-bottom: 0.75rem;
+    display: block;
+    text-align: left;
+  }
+  .contentGI h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.71rem;
+  }
+  .contentGI .descContentGI {
+    font-size: 0.75rem;
+  }
+  .btnContactHeader {
+    width: 12.75rem;
+    height: 2.5rem;
+  }
+  .textBtnHeader span {
+    font-size: 0.625rem;
+  }
+  .textBtnHeader svg {
+    width: 0.66669rem;
+    height: 0.66669rem;
+  }
+  .btnContactHeader:hover .textBtnHeader span {
+    color: var(--Foundation-Blue-blue-500);
+  }
+  .btnContactHeader:hover .borderBtnHeaderFill {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  .btnContactHeader:hover .textBtnHeader svg path {
+    stroke: var(--Foundation-Blue-blue-500);
+  }
+  .btnContactHeader:hover .retangleBtnHeader {
+    top: 0;
+    right: 0;
+    transition: 0.5s ease-in-out;
+  }
+  .imageGi0 {
+    width: 55%;
+    left: 0;
+  }
+  .imageGi1 {
+    left: unset;
+    right: 0;
+    width: 40%;
+    bottom: 12%;
+  }
+  .imageGi2 {
+    width: 60%;
+    left: 10%;
+    height: 35%;
+  }
+  .imageGi3 {
+    width: 25%;
+    left: unset;
+    right: 0;
+  }
+  .imageGi4 {
+    width: 25%;
+    left: unset;
+    right: 0;
+    height: 27%;
+  }
+  .imageGi5 {
+    width: 47%;
+    height: 20%;
+    bottom: unset;
+    top: 7%;
+    left: 0;
+  }
+  .containerImageGI {
+    transform: translateY(-0.5rem);
+  }
+  .retanglecontainerImageGI,
+  .retanglecontainerImageGI2 {
+    transform: rotateY(180deg);
+  }
+  .retanglecontainerImageGI,
+  .retanglecontainerImageGI2 {
+    width: 1.9375rem;
+    height: 2.0625rem;
+  }
+  .retanglecontainerImageGI {
+    left: 48%;
+  }
+  .retanglecontainerImageGI2 {
+    left: 40%;
+  }
+  .retanglecontainerImageGI3 {
+    width: 1.625rem;
+    height: 1.625rem;
+    left: unset;
+    right: 0;
+    bottom: 32%;
+  }
+  .retanglecontainerImageGIMb1,
+  .retanglecontainerImageGIMb2 {
+    display: block;
+    width: 1.34375rem;
+    height: 1.34375rem;
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    position: absolute;
+    z-index: 2;
+    background: var(--Foundation-Red-red-500);
+  }
+  .retanglecontainerImageGIMb1{
+    left: 7%;
+    bottom: 33%;
+  }
+  .retanglecontainerImageGIMb2{
+    left: 12.5%;
+    bottom: 33%;
+  }
+}

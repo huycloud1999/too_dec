@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root {
+    --font-lexend: 'Lexend Deca', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --Foundation-Blue-blue-500:#047F56;
+    --Foundation-Blue-blue-200:#93C8B6;
+    --Foundation-Red-red-500:#FF4040;
+    --Foundation-Grey-grey-900:#3A3A3A;
+    --Foundation-White-white:#fff;
+    --Foundation-Blue-blue-100:#C3E0D6;
+    --greyscaletext-5:#ECECEC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-lexend);
+    font-size: 1vw;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+@media (max-width: 1024px) {
+
+    
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 4.267vw;
+    }
+    
+}
+

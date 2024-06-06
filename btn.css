@@ -1,0 +1,83 @@
+.btnContactHeader {
+    width: 17.875rem;
+    height: 3.375rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.69rem;
+    transition: 0.5s ease-in-out;
+  }
+  .borderBtnHeader,
+  .borderBtnHeaderFill {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .borderBtnHeaderFill {
+    opacity: 0;
+  }
+  .textBtnHeader {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  .textBtnHeader span {
+    font-family: var(--font-montserrat);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+    color: var(--Foundation-Blue-blue-500);
+
+    margin-right: 0.5rem;
+  }
+  .textBtnHeader svg {
+    width: 1rem;
+    height: 1rem;
+  }
+  .menubtn {
+    display: flex;
+    align-items: center;
+  }
+  .retangleBtnHeader {
+    background-color: var(--Foundation-Red-red-500);
+    width: 1.63788rem;
+    height: 1.63788rem;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+  }
+  .menubtn span {
+    color: var(--Foundation-Blue-blue-500);
+    font-family: var(--font-montserrat);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  .btnContactHeader:hover .textBtnHeader span {
+    color: var(--Foundation-White-white);
+  }
+  .btnContactHeader:hover .borderBtnHeaderFill {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+  }
+  .btnContactHeader:hover .textBtnHeader svg path {
+    stroke: var(--Foundation-White-white);
+  }
+  .btnContactHeader:hover .retangleBtnHeader {
+    top: -4px;
+    right: -4px;
+    transition: 0.5s ease-in-out;
+  }

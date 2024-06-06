@@ -1,0 +1,323 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: var(--Foundation-Blue-blue-500);
+  width: 100vw;
+  height: fit-content;
+  padding: 6.82rem 4.63rem 2.35rem;
+}
+.sawFooter {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  object-fit: cover;
+  height: 2.3rem;
+  top: 0;
+  left: 0;
+}
+/* btn */
+.textBtnHeader span {
+  color: var(--Foundation-White-white);
+}
+.textBtnHeader svg path {
+  stroke: var(--Foundation-White-white);
+}
+.btnContactHeader:hover .textBtnHeader span {
+  color: var(--Foundation-Blue-blue-500);
+}
+
+.btnContactHeader:hover .textBtnHeader svg path {
+  stroke: var(--Foundation-Blue-blue-500);
+}
+/* btn */
+
+.logoFooter {
+  width: 18.98988rem;
+  height: 9.20719rem;
+}
+.titleContentFirst {
+  width: 25.1875rem;
+}
+.titleFooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.titleContentFirst p {
+  color: var(--Foundation-White-white);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.5rem */
+  letter-spacing: -0.0375rem;
+  margin-bottom: 1.75rem;
+}
+.footerContentList {
+  display: flex;
+}
+.footerContentList > li {
+  width: 14.4rem;
+}
+.footerContentList > li a {
+  color: var(--Foundation-White-white);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.5rem */
+  letter-spacing: -0.0375rem;
+  display: block;
+  margin-bottom: 1.06rem;
+}
+.submenu > li a {
+  display: block;
+  margin-bottom: 0.38rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.footerContentList > li:first-child {
+  margin-right: 6.31rem;
+}
+.labelInfoFooter img {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.7;
+}
+.phoneInfoFooter {
+  display: flex;
+  flex-direction: column;
+}
+.labelInfoFooter span {
+  color: var(--Foundation-White-white);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.6rem */
+  letter-spacing: -0.01581rem;
+  opacity: 0.7;
+}
+.phoneInfoFooter {
+  margin-bottom: 1.38rem;
+}
+.phoneInfoFooter > span,
+.emailInfoFooter > span {
+  color: var(--Foundation-White-white);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+}
+.adressFooter {
+  margin-top: 5rem;
+  width: 100%;
+  padding: 1.44rem 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+}
+.labelAdressFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 24.75rem;
+}
+.labelAdressFooter span:first-child {
+  color: var(--Foundation-Blue-blue-200);
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 0.9rem */
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  margin-bottom: 0.38rem;
+}
+.labelAdressFooter span:last-child {
+  color: var(--Foundation-White-white);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.5rem */
+  letter-spacing: -0.0375rem;
+}
+.adressFooter > span {
+  width: 28.9375rem;
+  display: block;
+  color: var(--Foundation-White-white);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.02rem;
+}
+.titleContentThird {
+  padding-right: 2rem;
+}
+.submenu > li a:hover {
+  color: var(--Foundation-White-white);
+}
+.socialsFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.21rem;
+}
+.socialsFooter > span {
+  color: rgba(236, 236, 236, 0.5);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.3125rem */
+  letter-spacing: -0.01381rem;
+}
+.socialFooter {
+  display: flex;
+  align-items: center;
+}
+.socialFooter a,
+.socialFooter span {
+  color: var(--greyscaletext-5);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.3125rem */
+  letter-spacing: -0.0625rem;
+}
+.socialFooter span {
+  margin: 0 1.25rem;
+}
+.titleContentThirdMb {
+  display: none;
+}
+.retangleBgFooter {
+  width: 2.625rem;
+  height: 2.625rem;
+  background: var(--Foundation-Red-red-500);
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.bgthreediv {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bgAdress {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .footerContentList > li:first-child {
+    margin-right: 0;
+  }
+  .titleFooter {
+    flex-direction: column;
+  }
+  .titleContentFirst {
+    width: 100%;
+  }
+  .titleContentSecond {
+    margin-top: 1rem;
+  }
+  .footerContentList > li:first-child {
+    margin-right: 2rem;
+  }
+  .titleContentThird {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .phoneInfoFooter {
+    margin-right: 7rem;
+  }
+  .labelAdressFooter {
+    margin-right: 3rem;
+  }
+  .labelAdressFooter span:last-child {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 1.53rem 1.13rem;
+    top: unset;
+    bottom: unset;
+    position: relative;
+    padding-bottom: 2.88rem;
+  }
+  .logoFooter {
+    width: 12.4865rem;
+    height: 6.05406rem;
+  }
+  .titleContentFirst p {
+    font-size: 0.75rem;
+    line-height: 125%;
+    margin-bottom: 1.42rem;
+  }
+  .btnContactHeader {
+    margin-bottom: 2.13rem;
+  }
+  .footerContentList {
+    flex-direction: column;
+  }
+  .footerContentList > li:first-child > a:nth-child(1) {
+    display: none;
+  }
+  .footerContentList > li:last-child .submenu {
+    display: none;
+  }
+  .footerContentList > li a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--Foundation-White-white);
+    opacity: 0.7;
+    margin-bottom: 0.69rem;
+  }
+  .titleContentThird {
+    display: none;
+  }
+  .adressFooter {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .adressFooter > span {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .labelAdressFooter span:last-child {
+    font-size: 1.125rem;
+  }
+  .titleContentThirdMb {
+    display: block;
+  }
+  .titleContentThirdMb {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.62rem;
+  }
+  .phoneInfoFooter {
+    margin-right: 0;
+  }
+  .socialsFooter {
+    margin-top: 1.62rem;
+  }
+ 
+  .retangleBgFooter {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+  .bgthreediv {
+    display: none;
+  }
+  .bgAdress {
+    display: block;
+    position: absolute;
+    right: -1.13rem;
+    bottom: 100%;
+  }
+  .adressFooter {
+    position: relative;
+  }
+}
