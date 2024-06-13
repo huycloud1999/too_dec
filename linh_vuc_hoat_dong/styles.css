@@ -1,0 +1,249 @@
+.fieldOfActivity {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+.bg-FOA {
+  width: 50%;
+  right: 0;
+  top: 10%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.titleFOA {
+  display: flex;
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-content: space-between;
+  align-self: center;
+}
+.titleFOA h2 {
+  color: var(--Foundation-Blue-blue-500);
+  font-family: "Lexend Deca";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 6rem */
+  letter-spacing: -0.09625rem;
+  text-transform: uppercase;
+  width: 40%;
+}
+.descFOA {
+  width: 30%;
+  margin-right: 4.3rem;
+  color: var(--Foundation-Grey-grey-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.02rem;
+}
+.itemFOA {
+  width: 25%;
+  height: 22.98456rem;
+  position: relative;
+  border: 0.749px solid #eaeaea;
+  overflow: hidden;
+}
+.bg-item-foa {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  bottom: 0;
+  height: 20%;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+.itemFOA {
+  padding-top: 1.22rem;
+  padding-left: 1.26rem;
+  cursor: pointer;
+}
+.icon-item-foa {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.itemFOA span {
+  color: var(--Foundation-Blue-blue-600);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+  display: block;
+  padding-left: 0.75rem;
+}
+.itemFOA h3 {
+  color: var(--Foundation-White-white);
+  font-size: 1.77888rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 1.95675rem */
+  letter-spacing: -0.07394rem;
+  text-transform: capitalize;
+  position: absolute;
+  top: -10%;
+
+  left: 1.19rem;
+  opacity: 0;
+}
+.arrowItemFoa {
+  display: flex;
+  width: 2.34056rem;
+  height: 2.34056rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: var(--Foundation-Blue-blue-500);
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  z-index: 2;
+}
+.arrowItemFoa svg {
+  width: 1rem;
+  height: 1rem;
+}
+.linkItemFoa {
+  position: absolute;
+  color: var(--Foundation-White-white);
+  font-size: 0.93625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 1.02988rem */
+  letter-spacing: -0.07394rem;
+  right: 20%;
+  bottom: -10%;
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+}
+.itemFOA:hover .bg-item-foa {
+  height: 100%;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+.itemFOA:hover h3 {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+}
+.itemFOA:hover .linkItemFoa {
+  bottom: 17%;
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+}
+.itemFOA:hover h3 {
+  top: 1.52rem;
+  transition: 0.5s ease-in-out;
+}
+.containerItemFOA {
+  display: flex;
+  padding: 0 4rem;
+  margin-top: 4rem;
+}
+@media (max-width: 1024px) {
+  .titleFOA {
+    flex-direction: column;
+  }
+  .titleFOA h2 {
+    width: 100%;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .descFOA {
+    width: 55%;
+    margin-right: 4.3rem;
+    margin-bottom: 1rem;
+  }
+  .containerItemFOA {
+    flex-wrap: wrap;
+  }
+  .itemFOA {
+    width: 50%;
+  }
+  .fieldOfActivity {
+    height: auto;
+  }
+  .itemFOA .bg-item-foa {
+    height: 100%;
+    display: none;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+  }
+  .itemFOA h3 {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+    display: none;
+  }
+  .itemFOA .linkItemFoa {
+    bottom: 17%;
+    transition: 0.5s ease-in-out;
+    z-index: 2;
+    color: red;
+    right: unset;
+    left: 10%;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .itemFOA h3 {
+    top: 1.52rem;
+    transition: 0.5s ease-in-out;
+  }
+  .arrowItemFoa {
+    right: unset;
+    left: 36%;
+    background-color: var(--Foundation-Red-red-500);
+  }
+}
+@media (max-width: 768px) {
+  .titleFOA {
+    padding-left: 1.19rem;
+  }
+  .titleFOA h2 {
+    font-size: 2.25rem;
+  }
+  .descFOA {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .fieldOfActivity .btnContactHeader {
+    display: none;
+  }
+  .containerItemFOA {
+    margin-top: 3.5rem;
+    padding: 0;
+  }
+  .itemFOA {
+    height: 11.6875rem;
+  }
+  .icon-item-foa {
+    width: 3.8125rem;
+    height: 3.8125rem;
+  }
+  .itemFOA span {
+    font-size: 0.875rem;
+    padding: 0;
+  }
+  .itemFOA .linkItemFoa {
+    font-size: 0.75rem;
+  }
+  .arrowItemFoa {
+    width: 1.19006rem;
+    height: 1.19006rem;
+  }
+  .arrowItemFoa svg {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .arrowItemFoa {
+    right: unset;
+    left: 40%;
+    bottom: 15.5%;
+  }
+}

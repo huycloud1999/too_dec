@@ -4,12 +4,16 @@
     --font-lexend: 'Lexend Deca', sans-serif;
     --font-montserrat: 'Montserrat', sans-serif;
     --Foundation-Blue-blue-500:#047F56;
+    --Foundation-Blue-blue-600:#036C49;
     --Foundation-Blue-blue-200:#93C8B6;
     --Foundation-Red-red-500:#FF4040;
+    --Foundation-Grey-grey-600:#7D7D7D;
     --Foundation-Grey-grey-900:#3A3A3A;
+    --Foundation-Grey-grey-300:#B0B0B0;
     --Foundation-White-white:#fff;
     --Foundation-Blue-blue-100:#C3E0D6;
     --greyscaletext-5:#ECECEC;
+    
 }
 * {
     margin: 0;

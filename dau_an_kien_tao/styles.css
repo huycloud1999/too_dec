@@ -1,0 +1,327 @@
+.tectonicImprint {
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+}
+.headerTectonicImprint {
+  position: relative;
+  padding: 4rem 3.81rem 1.44rem;
+}
+.bg-headerTectonicImprint {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+}
+.headerTectonicImprint h2 {
+  color: #047f56;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 6rem */
+  letter-spacing: -0.09625rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 1.12rem;
+}
+.headerTectonicImprint h2 strong {
+  color: var(--Foundation-Red-red-500);
+  opacity: 0.8;
+}
+.titleTectonicImprint {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleTectonicImprint > span {
+  width: 26.8125rem;
+  display: block;
+  color: #047f56;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.02rem;
+}
+.slideTectonicImprint {
+  display: flex;
+  border-top: 1px solid var(--Foundation-Blue-blue-500);
+  border-bottom: 1px solid var(--Foundation-Blue-blue-500);
+  margin: 0 1rem;
+}
+.leftTectonicImprint {
+  width: 30%;
+  border-right: 1px solid var(--Foundation-Blue-blue-500);
+  padding-top: 4.56rem;
+  padding-left: 2.81rem;
+  padding-right: 2.81rem;
+  padding-bottom: 2rem;
+}
+.leftTectonicImprint .top_leftTI {
+  display: flex;
+  flex-direction: column;
+}
+.leftTectonicImprint .top_leftTI .labelNameProjectTI {
+  color: var(--Foundation-Grey-grey-300);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.05rem */
+  letter-spacing: -0.00875rem;
+  display: block;
+  margin-bottom: 0.38rem;
+}
+.leftTectonicImprint .top_leftTI .nameProjectTI {
+  color: var(--Foundation-Grey-grey-900, #3a3a3a);
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 2.25rem */
+  margin-bottom: 1.81rem;
+  display: block;
+}
+.leftTectonicImprint .top_leftTI .labelLocationTI {
+  color: var(--Foundation-Grey-grey-300, #b0b0b0);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 0.9375rem */
+  display: block;
+  margin-bottom: 0.38rem;
+}
+.leftTectonicImprint .top_leftTI .nameLocationTI {
+  color: var(--Foundation-Grey-grey-600, #7d7d7d);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+  display: block;
+  margin-bottom: 0.87rem;
+}
+.leftTectonicImprint .top_leftTI .labeTimeTI {
+  color: var(--Foundation-Grey-grey-300, #b0b0b0);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 0.9375rem */
+  display: block;
+  margin-bottom: 0.38rem;
+  text-transform: uppercase;
+}
+.leftTectonicImprint .top_leftTI .timeTI {
+  color: var(--Foundation-Grey-grey-600, #7d7d7d);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+  display: block;
+  margin-bottom: 1.81rem;
+}
+.leftTectonicImprint .top_leftTI > a span {
+  color: var(--Foundation-Red-red-500);
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.05rem */
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+.leftTectonicImprint .top_leftTI > a {
+  display: flex;
+  align-items: center;
+}
+.bottom_leftTI {
+  margin-top: 40%;
+}
+.btnsSlidesTi {
+  display: flex;
+}
+.arrowSLideTI {
+  background: var(--Foundation-White-white);
+  display: flex;
+  width: 3.125rem;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--Foundation-Blue-blue-500);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.arrowSLideTI svg path {
+  fill: var(--Foundation-Blue-blue-500);
+  transition: 0.5s ease-in-out;
+}
+.arrowSLideTI:hover {
+  background: var(--Foundation-Blue-blue-500);
+  transition: 0.5s ease-in-out;
+}
+.arrowSLideTI:hover svg path {
+  fill: var(--Foundation-White-white);
+}
+.arrowSLideLeftTI {
+  transform: rotateY(180deg);
+  margin-right: 0.5rem;
+}
+.rightTectonicImprint {
+  padding-top: 1.69rem;
+  padding-left: 1.75rem;
+  padding-right: 2.81rem;
+  padding-bottom: 1.75rem;
+  width: 70%;
+  height: 100%;
+}
+.paginationSLideTI {
+  width: 15% !important;
+  color: var(--Foundation-Blue-blue-500, #047f56) !important;
+  font-family: var(--font-montserrat);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 0.9rem */
+  text-transform: uppercase;
+}
+.btnsSlidesTi {
+  width: 100%;
+}
+.bottom_leftTI {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mySwiperTI_homepage .swiper-slide {
+  height: 100%;
+  height: 34.6875rem;
+}
+.mySwiperTI_homepage .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .tectonicImprint {
+    height: auto;
+  }
+  .headerTectonicImprint h2 {
+    font-size: 4rem;
+  }
+  .mySwiperTI_homepage .swiper-slide {
+    height: 100%;
+    height: 27.6875rem;
+  }
+  .leftTectonicImprint {
+    padding-top: 1.56rem;
+    padding-left: 0.81rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftTectonicImprint {
+    padding-bottom: 0;
+  }
+  .btnContactHeader {
+    display: none;
+  }
+  .headerTectonicImprint {
+    padding: 5.37rem 1.19rem 1.31rem;
+  }
+  .headerTectonicImprint h2 {
+    font-size: 2.25rem;
+  }
+  .slideTectonicImprint {
+    flex-direction: column;
+  }
+  .leftTectonicImprint {
+    width: 100%;
+    border-right: 0;
+  }
+  .rightTectonicImprint {
+    width: 100%;
+  }
+  .slideTectonicImprint {
+    margin: 0;
+  }
+  .leftTectonicImprint .top_leftTI .labelNameProjectTI,
+  .leftTectonicImprint .top_leftTI .labelLocationTI,
+  .leftTectonicImprint .top_leftTI .labeTimeTI {
+    font-size: 0.625rem;
+  }
+  .leftTectonicImprint .top_leftTI .nameProjectTI {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .leftTectonicImprint .top_leftTI .nameLocationTI,
+  .leftTectonicImprint .top_leftTI .timeTI {
+    font-size: 0.75rem;
+  }
+  .leftTectonicImprint .top_leftTI > a {
+    justify-content: flex-end;
+    transform: translateY(-2.8rem);
+  }
+  .leftTectonicImprint .top_leftTI > a span {
+    font-size: 0.625rem;
+  }
+
+  .bottom_leftTI {
+    display: none;
+  }
+  .leftTectonicImprint .top_leftTI .timeTI {
+    margin-bottom: 0;
+  }
+  .rightTectonicImprint {
+    padding: 0;
+  }
+  .mySwiperTI_homepage .swiper-slide {
+    height: 15rem;
+  }
+
+  .slideTectonicImprint {
+    border-bottom: none;
+  }
+  .mbcontainer_pagi_slideTI{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0 0.81rem;
+    align-items: flex-start;
+  }
+  .mbcontainer_pagi_slideTI .paginationSLideTImb .swiper-pagination-progressbar-fill {
+background-color: var(--Foundation-Blue-blue-500) !important;
+  }
+  .bg-headerTectonicImprint {
+    width: 70%;
+  }
+  .mbcontainer_pagi_slideTI .paginationSLideTImb  {
+    width: 6.6875rem !important;
+    position: relative;
+  }
+  /* button no svg */
+  .btnContactHeadermbSlideTI {
+    display: flex;
+    background-color: #047f56;
+    width: 8.75rem;
+    height: 2.5rem;
+    position: relative;
+  }
+  .btnContactHeadermbSlideTI  .textBtnHeader {
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnContactHeadermbSlideTI  .textBtnHeader span {
+    font-size: 0.625rem;
+  }
+    /* button no svg */
+}

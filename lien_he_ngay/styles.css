@@ -1,0 +1,188 @@
+.contactHomePage {
+  width: 100%;
+  padding: 11rem 1rem 2.57rem;
+}
+.contactHomePage h2 {
+  text-align: center;
+  color: var(--Foundation-Red-red-500);
+  font-size: 9.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 11.67775rem; /* 124.563% */
+  letter-spacing: -0.42594rem;
+  text-transform: uppercase;
+}
+.contactHomePage h2 strong {
+  color: var(--Foundation-Blue-blue-500);
+  text-align: justify;
+}
+.btnContactHomepage {
+  width: 19.625rem;
+  height: 19.625rem;
+  background-color: var(--Foundation-Blue-blue-500);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  left: 38%;
+}
+.contactHomePage span {
+  color: var(--Foundation-White-white);
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.spanHoverContactHP {
+  height: 2.5rem;
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.spanHoverContactHP1,
+.spanHoverContactHP2 {
+  position: absolute;
+  left: 10%;
+}
+.spanHoverContactHP1 {
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+.spanHoverContactHP2 {
+  top: 100%;
+  transition: 0.5s ease-in-out;
+}
+.btnContactHomepage:hover .spanHoverContactHP .spanHoverContactHP1 {
+  bottom: 120%;
+  transition: 0.5s ease-in-out;
+}
+.btnContactHomepage:hover .spanHoverContactHP .spanHoverContactHP2 {
+  top: 0;
+  transition: 0.5s ease-in-out;
+}
+.btnContactHomepage {
+  transition: 0.5s ease-in-out;
+  scale: 0;
+}
+.btnContactHomepage:hover {
+  scale: 1.2;
+  transition: 0.5s ease-in-out;
+}
+.arrowContactHomepage {
+  width: 4.16319rem;
+  height: 4.16319rem;
+  position: relative;
+  overflow: hidden;
+}
+.arrowContactHomepage .arrowContactHomepage1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+.arrowContactHomepage .arrowContactHomepage2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 100%;
+  right: 100%;
+  transition: 0.5s ease-in-out;
+}
+.btnContactHomepage:hover .arrowContactHomepage .arrowContactHomepage1 {
+  bottom: 100%;
+  left: 100%;
+  transition: 0.5s ease-in-out;
+}
+.btnContactHomepage:hover .arrowContactHomepage .arrowContactHomepage2 {
+  top: 0;
+  right: 0;
+  transition: 0.5s ease-in-out;
+}
+.contactHPmb{
+    display: none;
+}
+@media (max-width: 1600px) {
+  .contactHomePage h2 {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 1024px) {
+  .btnContactHomepage {
+    width: 17.625rem;
+    height: 17.625rem;
+  }
+  .contactHomePage {
+    padding: 1rem 1rem 2.57rem;
+  }
+  .contactHomePage h2 {
+    font-size: 5rem;
+    line-height: 7.67775rem;
+  }
+  .btnContactHomepage {
+    width: 11.625rem;
+    height: 11.625rem;
+    top: 2%;
+    left: 41%;
+  }
+  .contactHomePage span {
+    font-size: 1rem;
+  }
+  .arrowContactHomepage {
+    width: 2.16319rem;
+    height: 2.16319rem;
+  }
+  .spanHoverContactHP {
+    height: 1.5rem;
+  }
+  .spanHoverContactHP1 {
+    left: 14%;
+  }
+}
+@media (max-width: 1024px) {
+  .contactHomePage .titleContactHP {
+    display: none;
+  }
+  .contactHPmb{
+    display: block;
+  }
+  .btnContactHomepage {
+    display: none;
+  }
+  .contactHPmb span {
+    color: var(--Foundation-Blue-blue-500, #047f56);
+    font-size: 2.4125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; /* 124.444% */
+    letter-spacing: -0.12744rem;
+    text-transform: uppercase;
+    text-align: centers;
+  }
+  .arrowmbContactHp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrowmbContactHpImg {
+    width: 2.425rem;
+    height: 2.425rem;
+    background-color: var(--Foundation-Red-red-500);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  .arrowmbContactHpImg img {
+    width: 1.5rem;
+    height: 1.5rem;
+  } 
+}

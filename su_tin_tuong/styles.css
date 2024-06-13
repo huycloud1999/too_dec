@@ -1,0 +1,147 @@
+.truthSectionHomePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.bg_su_tin_tuong,
+.bg_su_tin_tuong_mb {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.bg_su_tin_tuong_mb {
+  display: none;
+}
+.titleTruthSectionHP {
+  padding-top: 8.56rem;
+  padding-left: 7rem;
+}
+.titleTruthSectionHP h2 {
+  color: var(--Foundation-Blue-blue-200, #93c8b6);
+  font-family: var(--font-montserrat);
+  margin-bottom: 0.62rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.05rem */
+  text-transform: uppercase;
+}
+.titleTruthSectionHP > span {
+  color: var(--Foundation-White-white);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  width: 60%;
+  display: block;
+  margin-bottom: 2.25rem;
+}
+.slidePartnerHP {
+  width: 40%;
+  margin-left: 7rem;
+  margin-top: 6rem;
+}
+.mySwiperSlidePartner .swiper-slide {
+  height: 5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mySwiperSlidePartner .swiper-slide img {
+  width: 9.59069rem;
+  height: 1.08194rem;
+  object-fit: cover;
+}
+.slidePartnerMb {
+  display: none;
+}
+@media (max-width: 1600px) {
+  .bg_su_tin_tuong {
+    object-fit: fill;
+  }
+}
+@media (max-width: 768px) {
+  .titleTruthSectionHP {
+    padding: 0;
+    padding-top: 1.31rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titleTruthSectionHP h2 {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    width: 59%;
+    text-align: center;
+  }
+  .titleTruthSectionHP > span {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    width: 86%;
+  }
+  .titleTruthSectionHP .btnContactHeader {
+    display: none;
+  }
+  .bg_su_tin_tuong_mb {
+    display: block;
+  }
+  .bg_su_tin_tuong {
+    display: none;
+  }
+  .slidePartnerHP {
+    display: none;
+  }
+  .mySwiperSlidePartnerMb1 .swiper-slide,
+  .mySwiperSlidePartnerMb2 .swiper-slide {
+    border: 0.5px solid #cccccc99 !important;
+    height: 4.34375rem !important ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mySwiperSlidePartnerMb2,
+  .mySwiperSlidePartnerMb1 {
+    width: 135%;
+  }
+  .mySwiperSlidePartnerMb2 {
+    transform: translateX(-5rem);
+  }
+  .mySwiperSlidePartnerMb1 .swiper-slide img,
+  .mySwiperSlidePartnerMb2 .swiper-slide img {
+    width: 6.12613rem;
+    height: 1.13975rem;
+    object-fit: cover;
+  }
+  .slidePartnerMb {
+    display: block;
+  }
+  .truthSectionHomePage {
+    height: 74vh;
+  }
+  .slidePartnerMb .btnContactHeader {
+    margin-top: 2.31rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slidePartnerMb .btnContactHeader span {
+    color: white;
+    font-size: 0.625rem;
+  }
+  .slidePartnerMb .btnContactHeader {
+    width: 11.0625rem;
+    height: 2.5rem;
+  }
+  .slidePartnerMb .btnContactHeader svg {
+    color: white;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
